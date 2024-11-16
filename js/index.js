@@ -1,4 +1,4 @@
-
+// add comment new
 var quotesList = [
     '“Be yourself; everyone else is already taken.”',
     '“So many books, so little time.”',
