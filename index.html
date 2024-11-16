@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/home.css">
+
 </head>
 <body>
     
+    <div class="container text-center">
+        <h1 class="">Quote of the Day</h1>
+    <div class="item h-100">
+        <div class="inner h-100">
+            <p>Press the button below to recieve a random quote!<h1>Quote of the Day</h1></p>
+            <button class="btn btn-primary px-5 py-3 mb-5" onclick="generateQuote();">New Quote</button>
+            <p id="quoteOutput" class="mb-5">"Do not take life too seriously. You will not get out alive."</p>
+            <p id="authorOutput">--Elbert Hubbard</p>    
+        </div>
+    </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

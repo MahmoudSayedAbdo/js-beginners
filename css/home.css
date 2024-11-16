@@ -1,0 +1,23 @@
+h1 {
+    font-size: 100px;
+    font-weight: 800;
+    font-family: Impact;
+    padding: 30px;
+
+}
+
+p {
+    font-size: 30px;
+    
+}
+
+.item {
+    background-image: url(../imgs/back.jpg);
+    background-size: auto;
+    padding: 150px;
+}
+
+.inner {
+    background-color: white;
+    padding: 30px;
+}
